@@ -3,6 +3,7 @@ import Welcome from "./pages/Welcome";
 import Products from "./pages/Products";
 import MainHeader from "./components/MainHeader";
 import ProductDetail from "./pages/ProductDetail";
+import StyledComponentsExample from "./components/StyledComponentsExample";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <ProductDetail />
           </Route>
         </Switch>
+        <StyledComponentsExample />
       </main>
     </div>
   );
