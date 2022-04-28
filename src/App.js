@@ -2,6 +2,7 @@ import { Route } from "react-router-dom";
 import Welcome from "./pages/Welcome";
 import Products from "./pages/Products";
 import MainHeader from "./components/MainHeader";
+import StyledComponentsExample from "./components/StyledComponentsExample";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/products">
           <Products />
         </Route>
+        <StyledComponentsExample/>
       </main>
     </div>
   );
